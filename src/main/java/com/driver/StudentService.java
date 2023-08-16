@@ -10,7 +10,7 @@ import java.util.List;
 @Service
 public class StudentService {
     @Autowired
-    private StudentRepository repository;
+    private StudentRepository repository = new StudentRepository();
     public void addStudent(Student student){
         repository.addStudent(student);
     }
