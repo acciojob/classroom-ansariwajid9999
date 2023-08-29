@@ -11,7 +11,8 @@ public class Teacher {
     public Teacher() {
 
     }
-    public Teacher(String name, int numberOfStudents, int age){
+
+    public Teacher(String name, int numberOfStudents, int age) {
         this.name = name;
         this.numberOfStudents = numberOfStudents;
         this.age = age;
@@ -25,19 +26,19 @@ public class Teacher {
         this.name = name;
     }
 
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
     public int getNumberOfStudents() {
         return numberOfStudents;
     }
 
     public void setNumberOfStudents(int numberOfStudents) {
         this.numberOfStudents = numberOfStudents;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 }
