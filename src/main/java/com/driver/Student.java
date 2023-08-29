@@ -1,4 +1,5 @@
 package com.driver;
+
 public class Student {
 
     private String name;
@@ -8,30 +9,31 @@ public class Student {
     public Student(){
 
     }
-    public Student(String name, int age, double averageScore){
+
+    public Student(String name, int age, double averageScore) {
         this.name = name;
         this.age = age;
         this.averageScore = averageScore;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public int getAge() {
+        return age;
     }
 
     public double getAverageScore() {
         return averageScore;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 
     public void setAverageScore(double averageScore) {
